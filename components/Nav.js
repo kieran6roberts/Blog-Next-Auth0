@@ -23,7 +23,7 @@ const Nav = ({ user }) => {
         </li>
         <li css={linkItem}>
           <a css={link}
-          href={`/profile/${user?.nickname ?? 'user'}`}
+          href={`/profile/${user?.nickname ?? '_'}`}
           >
             Profile
           </a>
